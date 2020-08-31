@@ -1,0 +1,108 @@
+body{
+	margin: 1.5%;
+
+	font-family: cursive;
+}
+#contain{
+	position: fixed;
+	width: 95%;
+	background: rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.51);
+	padding: 1%;
+	border-radius: 20px;
+	
+	display: grid;
+	grid-template-columns: 10% 10% 20% auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 50px 10px;
+
+}
+#player{
+	border: solid white;
+	width: 100%;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.51);
+	border-radius: 20px;
+
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+button{
+	font-size: 100%;
+	user-select: none;
+	-moz-user-select: none;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 1%;
+	cursor: pointer;
+	color: white;
+	border: solid transparent;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#play{
+	background: rgba(100, 255, 10, 1);
+
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+#stop{
+	background: rgba(255, 0, 0, 0.71);
+
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+#subscribe{
+	background: rgba(100, 0, 250, 0.71);
+
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+form{
+	border-radius: 10px;
+	padding: 1%;	
+	background: rgba(0, 0, 255, 0.71);
+	border: solid transparent;
+
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#tim{
+	margin: 0% 0% 0% 15%;
+	font-family: cursive;
+	font-size: 100%;
+	user-select: none;
+	-moz-user-select: none;
+	font-weight: bold;
+	color: white;
+	background: transparent;
+	border: none;
+}
+#download{
+	margin: 0% 0% 0% 15%;
+	cursor: pointer;
+	font-family: cursive;
+	font-size: 100%;
+	user-select: none;
+	-moz-user-select: none;
+	font-weight: bold;
+	color: white;
+	background: transparent;
+	border: none;
+	display: none;
+}
+
+#description{
+	font-size: 100%;
+
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
